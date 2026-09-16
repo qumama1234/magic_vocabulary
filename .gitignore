@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tool and editor settings
+.claude/
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and caches
+*.log
+.eslintcache
+coverage/
+
